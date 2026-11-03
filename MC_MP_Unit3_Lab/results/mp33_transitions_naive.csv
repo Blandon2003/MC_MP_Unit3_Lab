@@ -1,0 +1,17 @@
+time,from,to,trigger,cell,kind
+0,Idle,Random-Access,Connection request -> RACH preamble (Msg1),A,transition
+1,Random-Access,Random-Access,Random Access Response + timing advance (Msg2),A,rach
+2,Random-Access,Random-Access,RRC connection request (Msg3),A,rach
+3,Random-Access,Connected,Contention resolution success (Msg4),A,transition
+84,Connected,Handover-in-progress,Neighbour B RSRP -91.9 > serving -92.7 dBm,B,transition
+85,Handover-in-progress,Connected,Target B access confirmed (RRC reconfiguration complete),B,transition
+86,Connected,Handover-in-progress,Neighbour A RSRP -92.7 > serving -93.3 dBm,A,transition
+87,Handover-in-progress,Connected,Target A access confirmed (RRC reconfiguration complete),A,transition
+88,Connected,Handover-in-progress,Neighbour B RSRP -90.6 > serving -92.5 dBm,B,transition
+89,Handover-in-progress,Connected,Target B access confirmed (RRC reconfiguration complete),B,transition
+296,Connected,Handover-in-progress,Neighbour C RSRP -84.8 > serving -85.8 dBm,C,transition
+297,Handover-in-progress,Connected,Target C access confirmed (RRC reconfiguration complete),C,transition
+298,Connected,Handover-in-progress,Neighbour B RSRP -84.1 > serving -84.3 dBm,B,transition
+299,Handover-in-progress,Connected,Target B access confirmed (RRC reconfiguration complete),B,transition
+300,Connected,Handover-in-progress,Neighbour C RSRP -83.8 > serving -84.9 dBm,C,transition
+301,Handover-in-progress,Connected,Target C access confirmed (RRC reconfiguration complete),C,transition

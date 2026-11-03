@@ -1,0 +1,9 @@
+time,from,to,trigger,cell,kind
+0,Idle,Random-Access,Connection request -> RACH preamble (Msg1),A,transition
+1,Random-Access,Random-Access,Random Access Response + timing advance (Msg2),A,rach
+2,Random-Access,Random-Access,RRC connection request (Msg3),A,rach
+3,Random-Access,Connected,Contention resolution success (Msg4),A,transition
+101,Connected,Handover-in-progress,Neighbour B exceeds serving by >3 dB for 5 samples,B,transition
+102,Handover-in-progress,Connected,Target B access confirmed (RRC reconfiguration complete),B,transition
+314,Connected,Handover-in-progress,Neighbour C exceeds serving by >3 dB for 5 samples,C,transition
+315,Handover-in-progress,Connected,Target C access confirmed (RRC reconfiguration complete),C,transition

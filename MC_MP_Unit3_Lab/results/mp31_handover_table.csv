@@ -1,0 +1,4 @@
+configuration,handovers,ping_pongs,min_serving_rsrp,first_handover
+"Naive (no margin, no TTT)",25,24,-93.62,103
+"Hysteresis only (3 dB)",1,0,-93.62,133
+"Hysteresis 3 dB + TTT 5 samples",1,0,-96.75,197

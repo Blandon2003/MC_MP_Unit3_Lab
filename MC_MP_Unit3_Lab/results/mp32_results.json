@@ -1,0 +1,98 @@
+{
+  "config": {
+    "total_spectrum_MHz": 50.0,
+    "channel_bw_kHz": 200.0,
+    "coverage_area_km2": 400.0,
+    "cell_radius_km": 2.0,
+    "sector_count": 3
+  },
+  "rows": [
+    {
+      "N": 1,
+      "Q": 1.732,
+      "total_channels": 250,
+      "channels_per_cell": 250,
+      "cells": 38,
+      "capacity": 9500,
+      "sir_db": 1.76
+    },
+    {
+      "N": 3,
+      "Q": 3.0,
+      "total_channels": 250,
+      "channels_per_cell": 83,
+      "cells": 38,
+      "capacity": 3154,
+      "sir_db": 11.3
+    },
+    {
+      "N": 4,
+      "Q": 3.464,
+      "total_channels": 250,
+      "channels_per_cell": 62,
+      "cells": 38,
+      "capacity": 2356,
+      "sir_db": 13.8
+    },
+    {
+      "N": 7,
+      "Q": 4.583,
+      "total_channels": 250,
+      "channels_per_cell": 35,
+      "cells": 38,
+      "capacity": 1330,
+      "sir_db": 18.66
+    },
+    {
+      "N": 9,
+      "Q": 5.196,
+      "total_channels": 250,
+      "channels_per_cell": 27,
+      "cells": 38,
+      "capacity": 1026,
+      "sir_db": 20.85
+    },
+    {
+      "N": 12,
+      "Q": 6.0,
+      "total_channels": 250,
+      "channels_per_cell": 20,
+      "cells": 38,
+      "capacity": 760,
+      "sir_db": 23.34
+    }
+  ],
+  "split_half": {
+    "N": 7,
+    "Q": 4.583,
+    "total_channels": 250,
+    "channels_per_cell": 35,
+    "cells": 153,
+    "capacity": 5355,
+    "sir_db": 18.66,
+    "split_gain": 4.03,
+    "cells_gain": 4.03
+  },
+  "split_quarter": {
+    "N": 7,
+    "Q": 4.583,
+    "total_channels": 250,
+    "channels_per_cell": 35,
+    "cells": 615,
+    "capacity": 21525,
+    "sir_db": 18.66,
+    "split_gain": 16.18,
+    "cells_gain": 16.18
+  },
+  "sectoring": {
+    "omni_N7_capacity": 1330,
+    "sector_N4_capacity": 2356,
+    "gain": 1.77,
+    "omni_N7_sir_db": 18.66,
+    "omni_N4_sir_db": 13.8,
+    "sector_N4_sir_db": 18.57,
+    "sector_N7_sir_db": 23.43,
+    "interferers_omni": 6,
+    "interferers_sector": 2
+  }
+}

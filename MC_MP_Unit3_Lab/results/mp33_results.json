@@ -1,0 +1,302 @@
+{
+  "scenario": {
+    "samples": 400,
+    "cell_centres_km": [
+      0.0,
+      2.0,
+      4.0
+    ],
+    "rlf_threshold": -105.0
+  },
+  "naive": {
+    "handovers": 6,
+    "rlf": 0,
+    "ping_pongs": 4,
+    "mean_serving_rsrp": -76.24,
+    "min_serving_rsrp": -93.27
+  },
+  "tuned": {
+    "handovers": 2,
+    "rlf": 0,
+    "ping_pongs": 0,
+    "mean_serving_rsrp": -76.45,
+    "min_serving_rsrp": -95.62
+  },
+  "naive_handover_events": [
+    {
+      "time": 84,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour B RSRP -91.9 > serving -92.7 dBm",
+      "cell": "B",
+      "kind": "transition"
+    },
+    {
+      "time": 86,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour A RSRP -92.7 > serving -93.3 dBm",
+      "cell": "A",
+      "kind": "transition"
+    },
+    {
+      "time": 88,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour B RSRP -90.6 > serving -92.5 dBm",
+      "cell": "B",
+      "kind": "transition"
+    },
+    {
+      "time": 296,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour C RSRP -84.8 > serving -85.8 dBm",
+      "cell": "C",
+      "kind": "transition"
+    },
+    {
+      "time": 298,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour B RSRP -84.1 > serving -84.3 dBm",
+      "cell": "B",
+      "kind": "transition"
+    },
+    {
+      "time": 300,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour C RSRP -83.8 > serving -84.9 dBm",
+      "cell": "C",
+      "kind": "transition"
+    }
+  ],
+  "tuned_handover_events": [
+    {
+      "time": 101,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour B exceeds serving by >3 dB for 5 samples",
+      "cell": "B",
+      "kind": "transition"
+    },
+    {
+      "time": 314,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour C exceeds serving by >3 dB for 5 samples",
+      "cell": "C",
+      "kind": "transition"
+    }
+  ],
+  "naive_first_events": [
+    {
+      "time": 0,
+      "from": "Idle",
+      "to": "Random-Access",
+      "trigger": "Connection request -> RACH preamble (Msg1)",
+      "cell": "A",
+      "kind": "transition"
+    },
+    {
+      "time": 1,
+      "from": "Random-Access",
+      "to": "Random-Access",
+      "trigger": "Random Access Response + timing advance (Msg2)",
+      "cell": "A",
+      "kind": "rach"
+    },
+    {
+      "time": 2,
+      "from": "Random-Access",
+      "to": "Random-Access",
+      "trigger": "RRC connection request (Msg3)",
+      "cell": "A",
+      "kind": "rach"
+    },
+    {
+      "time": 3,
+      "from": "Random-Access",
+      "to": "Connected",
+      "trigger": "Contention resolution success (Msg4)",
+      "cell": "A",
+      "kind": "transition"
+    },
+    {
+      "time": 84,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour B RSRP -91.9 > serving -92.7 dBm",
+      "cell": "B",
+      "kind": "transition"
+    },
+    {
+      "time": 85,
+      "from": "Handover-in-progress",
+      "to": "Connected",
+      "trigger": "Target B access confirmed (RRC reconfiguration complete)",
+      "cell": "B",
+      "kind": "transition"
+    },
+    {
+      "time": 86,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour A RSRP -92.7 > serving -93.3 dBm",
+      "cell": "A",
+      "kind": "transition"
+    },
+    {
+      "time": 87,
+      "from": "Handover-in-progress",
+      "to": "Connected",
+      "trigger": "Target A access confirmed (RRC reconfiguration complete)",
+      "cell": "A",
+      "kind": "transition"
+    },
+    {
+      "time": 88,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour B RSRP -90.6 > serving -92.5 dBm",
+      "cell": "B",
+      "kind": "transition"
+    },
+    {
+      "time": 89,
+      "from": "Handover-in-progress",
+      "to": "Connected",
+      "trigger": "Target B access confirmed (RRC reconfiguration complete)",
+      "cell": "B",
+      "kind": "transition"
+    },
+    {
+      "time": 296,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour C RSRP -84.8 > serving -85.8 dBm",
+      "cell": "C",
+      "kind": "transition"
+    },
+    {
+      "time": 297,
+      "from": "Handover-in-progress",
+      "to": "Connected",
+      "trigger": "Target C access confirmed (RRC reconfiguration complete)",
+      "cell": "C",
+      "kind": "transition"
+    },
+    {
+      "time": 298,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour B RSRP -84.1 > serving -84.3 dBm",
+      "cell": "B",
+      "kind": "transition"
+    },
+    {
+      "time": 299,
+      "from": "Handover-in-progress",
+      "to": "Connected",
+      "trigger": "Target B access confirmed (RRC reconfiguration complete)",
+      "cell": "B",
+      "kind": "transition"
+    }
+  ],
+  "tuned_first_events": [
+    {
+      "time": 0,
+      "from": "Idle",
+      "to": "Random-Access",
+      "trigger": "Connection request -> RACH preamble (Msg1)",
+      "cell": "A",
+      "kind": "transition"
+    },
+    {
+      "time": 1,
+      "from": "Random-Access",
+      "to": "Random-Access",
+      "trigger": "Random Access Response + timing advance (Msg2)",
+      "cell": "A",
+      "kind": "rach"
+    },
+    {
+      "time": 2,
+      "from": "Random-Access",
+      "to": "Random-Access",
+      "trigger": "RRC connection request (Msg3)",
+      "cell": "A",
+      "kind": "rach"
+    },
+    {
+      "time": 3,
+      "from": "Random-Access",
+      "to": "Connected",
+      "trigger": "Contention resolution success (Msg4)",
+      "cell": "A",
+      "kind": "transition"
+    },
+    {
+      "time": 101,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour B exceeds serving by >3 dB for 5 samples",
+      "cell": "B",
+      "kind": "transition"
+    },
+    {
+      "time": 102,
+      "from": "Handover-in-progress",
+      "to": "Connected",
+      "trigger": "Target B access confirmed (RRC reconfiguration complete)",
+      "cell": "B",
+      "kind": "transition"
+    },
+    {
+      "time": 314,
+      "from": "Connected",
+      "to": "Handover-in-progress",
+      "trigger": "Neighbour C exceeds serving by >3 dB for 5 samples",
+      "cell": "C",
+      "kind": "transition"
+    },
+    {
+      "time": 315,
+      "from": "Handover-in-progress",
+      "to": "Connected",
+      "trigger": "Target C access confirmed (RRC reconfiguration complete)",
+      "cell": "C",
+      "kind": "transition"
+    }
+  ],
+  "fade": {
+    "naive": {
+      "handovers": 8,
+      "rlf": 0,
+      "ping_pongs": 5,
+      "mean_serving_rsrp": -76.7,
+      "min_serving_rsrp": -93.27
+    },
+    "tuned": {
+      "handovers": 3,
+      "rlf": 1,
+      "ping_pongs": 0,
+      "mean_serving_rsrp": -76.89,
+      "min_serving_rsrp": -100.02
+    }
+  },
+  "fade_rlf_events": {
+    "naive": [],
+    "tuned": [
+      {
+        "time": 244,
+        "from": "Connected",
+        "to": "Radio-Link-Failure",
+        "trigger": "Serving RSRP -105.7 dBm < -105 dBm",
+        "cell": "B",
+        "kind": "transition"
+      }
+    ]
+  }
+}

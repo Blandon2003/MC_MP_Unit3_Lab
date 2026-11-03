@@ -1,0 +1,875 @@
+{
+  "reuse": [
+    {
+      "N": 1,
+      "i": 1,
+      "j": 0,
+      "Q": 1.7321,
+      "groups_visible": 1,
+      "cells_drawn": 91
+    },
+    {
+      "N": 3,
+      "i": 1,
+      "j": 1,
+      "Q": 3.0,
+      "groups_visible": 3,
+      "cells_drawn": 127
+    },
+    {
+      "N": 4,
+      "i": 2,
+      "j": 0,
+      "Q": 3.4641,
+      "groups_visible": 4,
+      "cells_drawn": 169
+    },
+    {
+      "N": 7,
+      "i": 2,
+      "j": 1,
+      "Q": 4.5826,
+      "groups_visible": 7,
+      "cells_drawn": 217
+    },
+    {
+      "N": 9,
+      "i": 3,
+      "j": 0,
+      "Q": 5.1962,
+      "groups_visible": 9,
+      "cells_drawn": 271
+    },
+    {
+      "N": 12,
+      "i": 2,
+      "j": 2,
+      "Q": 6.0,
+      "groups_visible": 12,
+      "cells_drawn": 331
+    }
+  ],
+  "handover": [
+    {
+      "configuration": "Naive (no margin, no TTT)",
+      "handovers": 25,
+      "ping_pongs": 24,
+      "min_serving_rsrp": -93.62,
+      "first_handover": 103
+    },
+    {
+      "configuration": "Hysteresis only (3 dB)",
+      "handovers": 1,
+      "ping_pongs": 0,
+      "min_serving_rsrp": -93.62,
+      "first_handover": 133
+    },
+    {
+      "configuration": "Hysteresis 3 dB + TTT 5 samples",
+      "handovers": 1,
+      "ping_pongs": 0,
+      "min_serving_rsrp": -96.75,
+      "first_handover": 197
+    }
+  ],
+  "first_handovers": {
+    "Naive (no margin, no TTT)": [
+      {
+        "t": 103,
+        "from": 0,
+        "to": 1,
+        "serving_rsrp": -89.27,
+        "target_rsrp": -89.23
+      },
+      {
+        "t": 104,
+        "from": 1,
+        "to": 0,
+        "serving_rsrp": -90.5,
+        "target_rsrp": -89.23
+      },
+      {
+        "t": 105,
+        "from": 0,
+        "to": 1,
+        "serving_rsrp": -90.26,
+        "target_rsrp": -89.46
+      },
+      {
+        "t": 106,
+        "from": 1,
+        "to": 0,
+        "serving_rsrp": -90.18,
+        "target_rsrp": -88.31
+      },
+      {
+        "t": 110,
+        "from": 0,
+        "to": 1,
+        "serving_rsrp": -91.47,
+        "target_rsrp": -90.69
+      },
+      {
+        "t": 111,
+        "from": 1,
+        "to": 0,
+        "serving_rsrp": -90.61,
+        "target_rsrp": -89.31
+      },
+      {
+        "t": 116,
+        "from": 0,
+        "to": 1,
+        "serving_rsrp": -91.46,
+        "target_rsrp": -89.98
+      },
+      {
+        "t": 117,
+        "from": 1,
+        "to": 0,
+        "serving_rsrp": -90.85,
+        "target_rsrp": -89.92
+      },
+      {
+        "t": 118,
+        "from": 0,
+        "to": 1,
+        "serving_rsrp": -90.73,
+        "target_rsrp": -90.65
+      },
+      {
+        "t": 121,
+        "from": 1,
+        "to": 0,
+        "serving_rsrp": -91.35,
+        "target_rsrp": -90.5
+      }
+    ],
+    "Hysteresis only (3 dB)": [
+      {
+        "t": 133,
+        "from": 0,
+        "to": 1,
+        "serving_rsrp": -92.76,
+        "target_rsrp": -89.69
+      }
+    ],
+    "Hysteresis 3 dB + TTT 5 samples": [
+      {
+        "t": 197,
+        "from": 0,
+        "to": 1,
+        "serving_rsrp": -95.84,
+        "target_rsrp": -89.08
+      }
+    ]
+  },
+  "sweep": {
+    "margins": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12
+    ],
+    "ttts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      15,
+      20
+    ],
+    "counts": [
+      [
+        25,
+        5,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "min_serving": [
+      [
+        -93.62,
+        -93.62,
+        -93.62,
+        -93.62,
+        -93.62,
+        -93.62,
+        -93.62,
+        -93.62,
+        -93.62,
+        -93.62,
+        -94.19
+      ],
+      [
+        -93.62,
+        -93.62,
+        -93.62,
+        -93.62,
+        -93.62,
+        -93.62,
+        -93.62,
+        -94.19,
+        -94.75,
+        -94.75,
+        -96.75
+      ],
+      [
+        -93.62,
+        -93.62,
+        -94.19,
+        -94.19,
+        -94.19,
+        -94.75,
+        -96.75,
+        -97.25,
+        -98.66,
+        -98.9,
+        -101.03
+      ],
+      [
+        -93.62,
+        -93.62,
+        -94.75,
+        -96.1,
+        -96.75,
+        -96.75,
+        -98.66,
+        -98.66,
+        -98.9,
+        -99.61,
+        -103.61
+      ],
+      [
+        -93.62,
+        -95.72,
+        -95.72,
+        -96.1,
+        -96.75,
+        -96.75,
+        -98.66,
+        -98.66,
+        -98.9,
+        -99.61,
+        -103.61
+      ],
+      [
+        -95.72,
+        -95.72,
+        -96.1,
+        -96.75,
+        -96.75,
+        -97.25,
+        -98.66,
+        -98.66,
+        -98.9,
+        -100.59,
+        -103.74
+      ],
+      [
+        -96.75,
+        -96.75,
+        -97.25,
+        -98.66,
+        -98.66,
+        -98.66,
+        -98.9,
+        -99.61,
+        -100.59,
+        -103.61,
+        -105.8
+      ],
+      [
+        -96.75,
+        -98.66,
+        -98.66,
+        -100.59,
+        -101.03,
+        -101.62,
+        -103.61,
+        -104.07,
+        -105.8,
+        -108.18,
+        -110.21
+      ],
+      [
+        -100.59,
+        -101.03,
+        -101.62,
+        -103.61,
+        -103.61,
+        -103.74,
+        -105.8,
+        -105.8,
+        -108.18,
+        -109.16,
+        -111.29
+      ],
+      [
+        -101.62,
+        -103.74,
+        -104.07,
+        -105.8,
+        -105.8,
+        -105.8,
+        -108.18,
+        -108.18,
+        -109.17,
+        -111.24,
+        -113.87
+      ]
+    ],
+    "feasible": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "best_margin": 0,
+    "best_ttt": 4,
+    "best_count": 1,
+    "best_min_serving": -93.62
+  },
+  "bias": {
+    "unbiased_count": 1,
+    "biased_count": 1,
+    "unbiased_first": 197,
+    "biased_first": 170
+  },
+  "three_cell": {
+    "naive": {
+      "count": 26,
+      "ping_pongs": 24,
+      "handovers": [
+        {
+          "t": 103,
+          "from": 0,
+          "to": 1,
+          "serving_rsrp": -89.27,
+          "target_rsrp": -89.23
+        },
+        {
+          "t": 104,
+          "from": 1,
+          "to": 0,
+          "serving_rsrp": -90.5,
+          "target_rsrp": -89.23
+        },
+        {
+          "t": 105,
+          "from": 0,
+          "to": 1,
+          "serving_rsrp": -90.26,
+          "target_rsrp": -89.46
+        },
+        {
+          "t": 106,
+          "from": 1,
+          "to": 0,
+          "serving_rsrp": -90.18,
+          "target_rsrp": -88.31
+        },
+        {
+          "t": 110,
+          "from": 0,
+          "to": 2,
+          "serving_rsrp": -91.47,
+          "target_rsrp": -89.58
+        },
+        {
+          "t": 111,
+          "from": 2,
+          "to": 0,
+          "serving_rsrp": -89.86,
+          "target_rsrp": -89.31
+        },
+        {
+          "t": 112,
+          "from": 0,
+          "to": 2,
+          "serving_rsrp": -90.1,
+          "target_rsrp": -89.38
+        },
+        {
+          "t": 113,
+          "from": 2,
+          "to": 0,
+          "serving_rsrp": -89.86,
+          "target_rsrp": -89.62
+        },
+        {
+          "t": 116,
+          "from": 0,
+          "to": 1,
+          "serving_rsrp": -91.46,
+          "target_rsrp": -89.98
+        },
+        {
+          "t": 117,
+          "from": 1,
+          "to": 2,
+          "serving_rsrp": -90.85,
+          "target_rsrp": -89.22
+        },
+        {
+          "t": 119,
+          "from": 2,
+          "to": 1,
+          "serving_rsrp": -91.23,
+          "target_rsrp": -90.29
+        },
+        {
+          "t": 121,
+          "from": 1,
+          "to": 0,
+          "serving_rsrp": -91.35,
+          "target_rsrp": -90.5
+        },
+        {
+          "t": 122,
+          "from": 0,
+          "to": 2,
+          "serving_rsrp": -92.11,
+          "target_rsrp": -89.84
+        },
+        {
+          "t": 123,
+          "from": 2,
+          "to": 0,
+          "serving_rsrp": -90.93,
+          "target_rsrp": -89.51
+        },
+        {
+          "t": 125,
+          "from": 0,
+          "to": 2,
+          "serving_rsrp": -89.72,
+          "target_rsrp": -89.66
+        },
+        {
+          "t": 126,
+          "from": 2,
+          "to": 1,
+          "serving_rsrp": -89.78,
+          "target_rsrp": -88.7
+        },
+        {
+          "t": 127,
+          "from": 1,
+          "to": 0,
+          "serving_rsrp": -90.89,
+          "target_rsrp": -90.76
+        },
+        {
+          "t": 128,
+          "from": 0,
+          "to": 2,
+          "serving_rsrp": -92.42,
+          "target_rsrp": -88.99
+        },
+        {
+          "t": 130,
+          "from": 2,
+          "to": 1,
+          "serving_rsrp": -90.88,
+          "target_rsrp": -89.82
+        },
+        {
+          "t": 131,
+          "from": 1,
+          "to": 2,
+          "serving_rsrp": -90.34,
+          "target_rsrp": -88.34
+        },
+        {
+          "t": 132,
+          "from": 2,
+          "to": 1,
+          "serving_rsrp": -90.23,
+          "target_rsrp": -90.19
+        },
+        {
+          "t": 136,
+          "from": 1,
+          "to": 2,
+          "serving_rsrp": -90.19,
+          "target_rsrp": -88.3
+        },
+        {
+          "t": 140,
+          "from": 2,
+          "to": 1,
+          "serving_rsrp": -90.3,
+          "target_rsrp": -89.64
+        },
+        {
+          "t": 141,
+          "from": 1,
+          "to": 2,
+          "serving_rsrp": -90.42,
+          "target_rsrp": -89.4
+        },
+        {
+          "t": 151,
+          "from": 2,
+          "to": 1,
+          "serving_rsrp": -89.35,
+          "target_rsrp": -88.01
+        },
+        {
+          "t": 153,
+          "from": 1,
+          "to": 2,
+          "serving_rsrp": -90.91,
+          "target_rsrp": -88.13
+        }
+      ],
+      "min_serving": -90.76
+    },
+    "hysteresis": {
+      "count": 1,
+      "ping_pongs": 0,
+      "handovers": [
+        {
+          "t": 128,
+          "from": 0,
+          "to": 2,
+          "serving_rsrp": -92.42,
+          "target_rsrp": -88.99
+        }
+      ],
+      "min_serving": -92.11
+    },
+    "hysteresis_ttt": {
+      "count": 1,
+      "ping_pongs": 0,
+      "handovers": [
+        {
+          "t": 157,
+          "from": 0,
+          "to": 2,
+          "serving_rsrp": -92.32,
+          "target_rsrp": -88.01
+        }
+      ],
+      "min_serving": -92.78
+    }
+  },
+  "speed": [
+    {
+      "speed": "Baseline speed",
+      "policy": "Naive",
+      "count": 25,
+      "min_serving": -93.62
+    },
+    {
+      "speed": "Baseline speed",
+      "policy": "Hysteresis 3 dB",
+      "count": 1,
+      "min_serving": -93.62
+    },
+    {
+      "speed": "Baseline speed",
+      "policy": "Hyst + TTT(3,5)",
+      "count": 1,
+      "min_serving": -96.75
+    },
+    {
+      "speed": "2x speed",
+      "policy": "Naive",
+      "count": 5,
+      "min_serving": -91.42
+    },
+    {
+      "speed": "2x speed",
+      "policy": "Hysteresis 3 dB",
+      "count": 1,
+      "min_serving": -92.29
+    },
+    {
+      "speed": "2x speed",
+      "policy": "Hyst + TTT(3,5)",
+      "count": 1,
+      "min_serving": -93.35
+    },
+    {
+      "speed": "4x speed",
+      "policy": "Naive",
+      "count": 1,
+      "min_serving": -90.54
+    },
+    {
+      "speed": "4x speed",
+      "policy": "Hysteresis 3 dB",
+      "count": 1,
+      "min_serving": -92.13
+    },
+    {
+      "speed": "4x speed",
+      "policy": "Hyst + TTT(3,5)",
+      "count": 1,
+      "min_serving": -93.82
+    }
+  ]
+}
